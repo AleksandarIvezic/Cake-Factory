@@ -70,6 +70,7 @@
     ==============================================
 */
 body {
+  font-family: 'HelveticaNeue Medium', Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
@@ -108,12 +109,24 @@ a {
 .bg-red {
   background-color: var(--redColor);
 }
+.bg-black {
+  background-color: var(--darkColor);
+}
+
+/* Header  */
+
+header {
+  font-family: 'Gotham bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: linear-gradient(rgba(211, 82, 102, 0.8),rgba(211, 82, 102, 0.9)), url("img/Fruit-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* Navbar  */
 
-.navbar {
+.navbar {  
   background: var(--darkColor);
-  
+  margin-bottom: 20px;
 }
 
 .navbar-toogler {
@@ -121,7 +134,25 @@ a {
 }
 
 .navbar .logo {
-  height: 1.5rem;
-  width: 1.5rem;
-  margin-right: 20px;
+  height: 1.4rem;
+  width: 1.4rem;
+  margin-right: 10px;
+}
+
+/* Heading  */
+
+.heading,
+.search-bar {
+  color: white;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.heading .logo {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.search-bar {
+  font-family: 'Gotham Rounded Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
