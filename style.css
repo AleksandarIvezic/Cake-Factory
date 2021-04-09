@@ -127,7 +127,7 @@ h4 {
 }
 
 .text-red {
-  color: var(--redColor)
+  color: var(--redColor);
 }
 
 /* Header  */
