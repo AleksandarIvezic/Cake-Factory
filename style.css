@@ -171,9 +171,19 @@ header {
   width: 1.6rem;
 }
 
+/* Main  */
+
+main p,
 .search-bar {
   font-family: 'Gotham Rounded Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* Main  */
+/* Index  */
 
+.about-factory a {
+  height: 2rem;
+  display: block;
+  border-radius: 10px;
+  padding: 3px;
+
+}
