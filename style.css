@@ -99,6 +99,10 @@ a {
   text-decoration: none;
 }
 
+.cursor-text:hover {
+  cursor: text;
+}
+
 
 /*
     ==============================================
