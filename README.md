@@ -4,7 +4,7 @@
 
 ![screenshot](./app_screenshot.png)
 
-The Capstone instructions requires that our websit has at least two pages: 
+The Capstone instructions requires that our website has at least two pages: 
   1. Main page with the link to the Search results page
   2. Search results page
   
