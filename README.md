@@ -1,59 +1,42 @@
-![](https://img.shields.io/badge/myapp-blueviolet)
+# Capstone project: Cake-Factory
 
-# Project Name
-
-> One paragraph statement about the project.
+> The goal of this project is to build a Online web store for selling cakes that will have home and search page available on mobile and big screen
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+The Capstone instructions requires that our websit has at least two pages: 
+ 1. Home page
+ 2. Search page
+And it should be responsive in two screen sizes - mobile and big screen whith one breaking point of 768px.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5
+- CSS3
+- BOOTSTRAP5
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://shinobiwarior.github.io/Cake-Factory/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+No prerequisites
 
+To get  a local copy, copy up and run:
 
-To get a local copy up and running follow these simple example steps.
+    1. Clone the repo or download the Zip folder
+    2. Run live server or simply open the index.html file with a browser
 
-### Prerequisites
+To run it online just click on [Live Demo Link](https://shinobiwarior.github.io/Cake-Factory/)
 
-### Setup
+## Author
 
-### Install
+👤 **Aleksandar Ivezic**
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [Aleksandar Ivezic](https://github.com/ShinobiWarior)
+- Twitter: [@Aivezic](https://twitter.com/Aivezic)
+- LinkedIn: [Aleksandar Ivezic](https://www.linkedin.com/in/aleksandar-ivezi%C4%87-1a6b0391/)
 
 ## 🤝 Contributing
 
@@ -64,13 +47,3 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
