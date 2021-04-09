@@ -5,8 +5,9 @@
 ![screenshot](./app_screenshot.png)
 
 The Capstone instructions requires that our websit has at least two pages: 
- 1. Home page
- 2. Search page
+  1. Home page
+  2. Search page
+  
 And it should be responsive in two screen sizes - mobile and big screen whith one breaking point of 768px.
 
 ## Built With
