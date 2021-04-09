@@ -98,6 +98,12 @@ ul {
 a {
   text-decoration: none;
 }
+h2,
+h3,
+h4 {
+  color: var(--darkColor);
+  margin-top: 10px
+}
 
 .cursor-text:hover {
   cursor: text;
@@ -115,6 +121,13 @@ a {
 }
 .bg-black {
   background-color: var(--darkColor);
+}
+.bg-grey {
+  background-color: var(--greyColor);
+}
+
+.text-red {
+  color: var(--redColor)
 }
 
 /* Header  */
@@ -152,7 +165,8 @@ header {
   letter-spacing: -1px;
 }
 
-.heading .logo {
+.heading .logo,
+.index .logo {
   height: 1.6rem;
   width: 1.6rem;
 }
