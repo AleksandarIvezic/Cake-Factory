@@ -187,3 +187,19 @@ main p,
   padding: 3px;
 
 }
+
+.index h4 {
+  display: block;
+  width: 200px;
+  border-bottom: var(--redColor) 1px solid;
+}
+
+.index a {
+  color: var(--darkColor);
+}
+
+/* Hover style  */
+
+.index a:hover {
+  color: var(--redColor)
+}
