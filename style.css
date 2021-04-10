@@ -205,6 +205,10 @@ main p,
 }
 
 @media screen and (min-width: 768px) {
+  h4 {
+    font-size: 1.2rem;
+  }
+
   p {
     font-size: 0.8rem;
   }
@@ -218,6 +222,21 @@ main p,
 
   .top .card {
     width: 100%;
+  }
+
+  .card {
+    display: flex;
+  }
+
+  .article-text {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .price {
+    margin-left: auto
   }
   
 }
