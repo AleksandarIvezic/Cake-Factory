@@ -199,11 +199,17 @@ main p,
 
 /* Index  */
 
+.index {
+  margin-top: 20px;
+}
+
 .about-factory a {
-  height: 2rem;
   display: block;
   border-radius: 10px;
-  padding: 3px;
+  width: 300px;
+  margin-bottom: 20px;
+  height: 3rem;
+  padding: 6px;
 
 }
 
@@ -215,6 +221,12 @@ main p,
 
 .index a {
   color: var(--darkColor);
+}
+
+.categories a,
+.navigation a {
+  font-family: 'HelveticaNeue Light', Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
 }
 
 /* Hover style  */
@@ -241,7 +253,7 @@ main p,
     width: 50%;
   }
 
-  main  {
+  main .boxes  {
     width: 70%;
     margin: 0 auto;
   }
