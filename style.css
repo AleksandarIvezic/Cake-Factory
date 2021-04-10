@@ -255,7 +255,7 @@ main p,
   }
 
   .search-bar input,
-  .search-bar button {
+  .search-bar a {
     width: 50%;
   }
 
