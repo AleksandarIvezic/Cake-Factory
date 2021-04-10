@@ -213,7 +213,13 @@ main p,
 
 }
 
+.index h2,
 .index h4 {
+  font-family: 'HelveticaNeue Bold', Arial, Helvetica, sans-serif;
+}
+
+.index h4 {
+  /* font-family: 'HelveticaNeue Bold'; */
   display: block;
   width: 170px;
   border-bottom: var(--redColor) 1px solid;
