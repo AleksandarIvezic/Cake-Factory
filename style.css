@@ -105,8 +105,12 @@ h4 {
   margin-top: 10px
 }
 
-.cursor-text:hover {
-  cursor: text;
+h4 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.8rem;
 }
 
 
@@ -178,6 +182,21 @@ main p,
   font-family: 'Gotham Rounded Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.top .price {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.price {
+  text-align: end;
+}
+
+.price p,
+.price button {
+  font-size: 0.7rem;
+  padding: 2px 5px
+}
+
 /* Index  */
 
 .about-factory a {
@@ -200,17 +219,26 @@ main p,
 
 /* Hover style  */
 
+.cursor-text:hover {
+  cursor: text;
+}
+
 .index a:hover {
   color: var(--redColor)
 }
 
 @media screen and (min-width: 768px) {
-  h4 {
-    font-size: 1.2rem;
+  
+
+  header .search-bar {
+    width: 50%;
+    margin: 0 auto;
+    flex-grow: 1;
   }
 
-  p {
-    font-size: 0.8rem;
+  .search-bar input,
+  .search-bar button {
+    width: 50%;
   }
 
   main  {
@@ -235,8 +263,4 @@ main p,
     justify-content: space-between;
   }
 
-  .price {
-    margin-left: auto
-  }
-  
 }
