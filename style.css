@@ -238,7 +238,6 @@ main p,
 }
 
 .index h4 {
-  /* font-family: 'HelveticaNeue Bold'; */
   display: block;
   width: 170px;
   border-bottom: var(--redColor) 1px solid;
@@ -284,6 +283,20 @@ main p,
 
 .filter-search input {
   margin-left: 5px;
+}
+
+.search-boxes .card{
+  display: flex;
+  flex-direction: row;
+}
+
+.search-boxes .article-img {
+  margin-right: 20px;
+  width: 100%;
+}
+
+.search-boxes .article-text {
+  width: 100%;
 }
 
 /* Hover style  */
@@ -350,7 +363,7 @@ main p,
   .price p,
   .price button {
   font-size: 0.8rem;
-  padding: 2px 5px
+  padding: 2px 5px;
   }
 
   /* Filter search  */
