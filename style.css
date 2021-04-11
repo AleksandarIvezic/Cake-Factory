@@ -207,6 +207,10 @@ main p,
   font-family: 'Gotham Rounded Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.top img {
+  max-height: 400px;
+}
+
 .top .price {
   margin-right: 20px;
   margin-bottom: 20px;
@@ -231,7 +235,7 @@ main p,
 .about-factory a {
   display: block;
   border-radius: 10px;
-  width: 300px;
+  width: 255px;
   margin-bottom: 20px;
   height: 3rem;
   padding: 6px;
@@ -258,6 +262,13 @@ main p,
   font-family: 'HelveticaNeue Light', Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
 }
+
+ /* Index/Footer  */
+  
+ .index,
+ footer {
+   padding:10px 40px;
+ }
 
 /* Filter search  */
 
@@ -291,10 +302,7 @@ main p,
   margin-left: 5px;
 }
 
-.search-boxes .card{
-  display: flex;
-  flex-direction: row;
-}
+
 
 .search-boxes .article-img {
   margin-right: 20px;
@@ -391,12 +399,18 @@ footer i:hover {
     width: 70%;
     margin: 0 auto;
   }
-  .top .card {
-    width: 100%;
+  .top  {
+    width: 80%;
+    margin: 0 auto;
   }
 
   .card {
     display: flex;
+  }
+
+  .search-boxes .card{
+    display: flex;
+    flex-direction: row;
   }
 
   .article-text {
@@ -413,6 +427,9 @@ footer i:hover {
   }
 
   /* Filter search  */
+  .result .card{
+    width: 100%;
+  }
 
   .filter-search {
     min-width: 25%;
