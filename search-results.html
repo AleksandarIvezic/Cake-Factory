@@ -49,16 +49,16 @@
   </header>
   <main >
     <div class="boxes search-boxes">
-      <section class="filter-search">
-        <form class="d-flex">
+      <section class="filter-search p-3">
+        <form class="d-flex mb-2 justify-content-start">
           <fieldset class="flex-row">
-            <label for=""><input type="checkbox"> Ready</label>
-            <label for=""><input type="checkbox"> Order</label>
+            <label class="me-1" for="ready"><input id="ready" type="checkbox"> Ready</label>
+            <label for="order"><input id="order" type="checkbox"> Order</label>
           </fieldset>
         </form> 
         <form action=""> 
           <fieldset>
-            <h3>Sort items by</h3>
+            <h6>Sort items by</h6>
             <label for="higher"><input name="sort" id="higher" type="radio"> Higher price first</label>
             <label for="lower"><input name="sort" id="lower" type="radio"> Lower price first</label>
             <label for="new"><input name="sort" id="new" type="radio"> New products first</label>
@@ -66,7 +66,7 @@
             <label for="relevant"><input name="sort" id="relevant" type="radio"> Most relevant</label>
           </fieldset>
           <fieldset>
-            <h3>Category</h3>
+            <h6>Category</h6>
             <label for=""><input type="checkbox"> Chocolate</label>
             <label for=""><input type="checkbox"> Fruit</label>
             <label for=""><input type="checkbox"> Gluten-free</label>
@@ -75,7 +75,7 @@
             <label for=""><input type="checkbox"> Other</label>
           </fieldset>
           <fieldset>
-            <h3>Price</h3>
+            <h6>Price</h6>
             <label for=""><input type="checkbox"> &lt; 10 &#36;</label>
             <label for=""><input type="checkbox">  10 &#36; - 20 &#36;</label>
             <label for=""><input type="checkbox"> 20 &#36; - 30 &#36;</label>

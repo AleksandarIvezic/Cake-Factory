@@ -248,12 +248,17 @@ main p,
 
 .filter-search form {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .filter-search fieldset {
   display: flex;
   flex-direction: column;
+  margin-right: 10px;
+}
+
+.filter-search label {
+  font-size: 0.7rem;
 }
 
 .filter-search input {
