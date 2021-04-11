@@ -307,11 +307,51 @@ main p,
 
 /* Hover style  */
 
-.cursor-text:hover {
-  cursor: text;
+.navbar a:hover {
+  color:var(--pinkColor) !important;
 }
 
-.index a:hover {
+.navbar button:focus {
+  box-shadow: none;
+}
+
+.navbar .fas:hover {
+  color: white;
+  
+}
+
+.navbar-collapse .btn:hover {
+  color: var(--pinkColor) !important;
+  background-color: white;
+}
+
+.search-bar button:hover{
+  color:var(--redColor) !important;
+  opacity: 0.9;
+}
+
+.card button:hover {
+  color: var(--redColor) !important;
+  background-color: var(--pinkColor);
+  opacity: 0.9;
+}
+
+.article-img img:hover {
+  opacity: 0.9;
+}
+
+.article-text h4:hover {
+  color:var(--redColor);
+  opacity: 0.8;
+}
+
+.pagination a:hover {
+  background-color: var(--pinkColor);
+  color:white;
+}
+
+.index a:hover,
+footer i:hover {
   color: var(--redColor)
 }
 
