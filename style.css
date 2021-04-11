@@ -240,6 +240,26 @@ main p,
   font-size: 0.8rem;
 }
 
+/* Filter search  */
+
+.filter-search {
+  padding: 10px;
+}
+
+.filter-search form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-search fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-search input {
+  margin-left: 5px;
+}
+
 /* Hover style  */
 
 .cursor-text:hover {
