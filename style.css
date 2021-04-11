@@ -79,6 +79,7 @@ body {
   --redColor: #d35266;
   --greyColor: #888;
   --darkColor: #383838;
+  --pinkColor: #f49595;
 }
 
 *,
@@ -141,6 +142,11 @@ p {
 .bg-lightGrey {
   background-color: lightgray;
 }
+
+.bg-pink {
+  background-color: var(--pinkColor);
+}
+
 
 .text-red {
   color: var(--redColor);
@@ -256,7 +262,7 @@ main p,
 /* Filter search  */
 
 .filter-search {
-  background-color: #f49595;
+  background-color: var(--pinkColor);
   padding: 10px;
   border-right: var(--redColor) 1px solid;
 }
