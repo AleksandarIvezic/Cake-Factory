@@ -138,6 +138,10 @@ p {
   background-color: var(--greyColor);
 }
 
+.bg-lightGrey {
+  background-color: lightgray;
+}
+
 .text-red {
   color: var(--redColor);
 }
