@@ -180,6 +180,8 @@ header .heading {
   width: 1.6rem;
 }
 
+
+
 /* Main  */
 
 main p,
@@ -285,6 +287,7 @@ main p,
     font-size: 0.9rem;
   }
 
+  /* Header  */
   header {
     min-height: 50vh;
   }
@@ -293,15 +296,20 @@ main p,
     padding: 50px 0;
   }
 
+  header .heading-top {
+    margin-bottom: 100px !important;
+  }
+
   header .search-bar {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     flex-grow: 1;
   }
 
+  .search-bar #categories,
   .search-bar input,
   .search-bar a {
-    width: 50%;
+    width: 33%;
   }
 
   /* Main  */
