@@ -42,8 +42,18 @@
       <h1>CAKE FACTORY</h1>
       <p>Make a choise and we make your cake</p>
 
-      <form class="search-bar d-flex justify-content-center">
-        <input class="py-1" type="text" placeholder="Search our products">
+      <form class="search-bar d-flex flex-column justify-md-content-center flex-md-row align-items-stretch px-5 ">
+        <select id="categories" name="categories" size="1">
+          <option value="categories">All categories</option>
+          <option value="recomendation">Top recomendation</option>
+          <option value="chocolate">Chocolate</option>
+          <option value="fruit">Fruit</option>
+          <option value="gluten-free">Gluten free</option>
+          <option value="birthday">Birthday</option>
+          <option value="wedding">Wedding</option>
+          <option value="other">Other</option>
+        </select>
+        <input class="py-1" type="search" placeholder="Find your cake...">
         <a href="/search-results.html"><button type="button" class="btn bg-black text-light py-1 w-100">Search</button></a>
       </form>
     </div>
