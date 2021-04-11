@@ -246,6 +246,10 @@ main p,
   padding: 10px;
 }
 
+.filter-search h6 {
+  font-family: 'HelveticaNeue Bold', Arial, Helvetica, sans-serif;
+}
+
 .filter-search form {
   display: flex;
   justify-content: start;
@@ -258,6 +262,7 @@ main p,
 }
 
 .filter-search label {
+  font-family: 'HelveticaNeue Light', Arial, Helvetica, sans-serif;
   font-size: 0.7rem;
 }
 
@@ -276,6 +281,10 @@ main p,
 }
 
 @media screen and (min-width: 768px) {
+  p {
+    font-size: 0.9rem;
+  }
+
   header {
     min-height: 50vh;
   }
@@ -295,13 +304,12 @@ main p,
     width: 50%;
   }
 
+  /* Main  */
+
   main .boxes  {
     width: 70%;
     margin: 0 auto;
   }
-
- 
-
   .top .card {
     width: 100%;
   }
@@ -317,7 +325,27 @@ main p,
     justify-content: space-between;
   }
 
+  .price p,
+  .price button {
+  font-size: 0.8rem;
+  padding: 2px 5px
+  }
+
   /* Filter search  */
+
+  .filter-search {
+    min-width: 25%;
+  }
+
+  .filter-search h6 {
+    font-size: 1.1rem;
+  }
+ 
+  .filter-search label {
+    
+    font-size: 0.9rem;
+  }
+  
   .filter-search form {
     display: flex;
     flex-direction: column;
