@@ -312,4 +312,13 @@ main p,
     justify-content: space-between;
   }
 
+  /* Filter search  */
+  .filter-search form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search-boxes {
+    display: flex;
+  }
 }

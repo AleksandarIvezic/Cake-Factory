@@ -48,90 +48,45 @@
     </form>
   </header>
   <main >
-    <section class="filter-search">
-      <form class="d-flex">
-        <fieldset class="flex-row">
-          <label for=""><input type="checkbox"> Ready</label>
-          <label for=""><input type="checkbox"> Order</label>
-        </fieldset>
-      </form> 
-      <form action=""> 
-        <fieldset>
-          <h3>Sort items by</h3>
-          <label for="higher"><input name="sort" id="higher" type="radio"> Higher price first</label>
-          <label for="lower"><input name="sort" id="lower" type="radio"> Lower price first</label>
-          <label for="new"><input name="sort" id="new" type="radio"> New products first</label>
-          <label for="popular"><input name="sort" id="popular" type="radio"> Popular first</label>
-          <label for="relevant"><input name="sort" id="relevant" type="radio"> Most relevant</label>
-        </fieldset>
-        <fieldset>
-          <h3>Category</h3>
-          <label for=""><input type="checkbox"> Chocolate</label>
-          <label for=""><input type="checkbox"> Fruit</label>
-          <label for=""><input type="checkbox"> Gluten-free</label>
-          <label for=""><input type="checkbox"> Birthday</label>
-          <label for=""><input type="checkbox"> Weading</label>
-          <label for=""><input type="checkbox"> Other</label>
-        </fieldset>
-        <fieldset>
-          <h3>Price</h3>
-          <label for=""><input type="checkbox"> &lt; 10 &#36;</label>
-          <label for=""><input type="checkbox">  10 &#36; - 20 &#36;</label>
-          <label for=""><input type="checkbox"> 20 &#36; - 30 &#36;</label>
-          <label for=""><input type="checkbox"> 30 &#36; - 40 &#36;</label>
-          <label for=""><input type="checkbox"> 40 &#36; - 50 &#36;</label>
-          <label for=""><input type="checkbox"> 50 &#36; &gt;</label>
-        </fieldset>
-      </form>
-    </section>
-    <div class="boxes">
-      <section class="top container-fluid">
-        <a  href="#"><h3 class="ps-3 pt-3">Top Pick this week</h3></a>
-       
-        <article class="card mb-3 ">
-          <div class="row g-0">
-            <div class="article-img col-md-4">
-              <a class="d-md-none" href="#"><img class="w-100" src="img/Top-pick.png" alt="Easter Simnel Cake"></a>
-              <a class="d-none d-md-inline" href="#"><img class="w-100" src="img/Top-pick-lg.png" alt="Easter Simnel Cake"></a>
-  
-            </div>
-            <div class="article-text ps-2 col-md-8">
-              <div class="info">
-                <a href="#"><h4>Easter simnel cake</h4></a>
-              <p class="text-red fw-bold">2.700g</p>
-              <p>Celebrate your Easter with traditional Easter simnel cake. Simnel cake is a light and moist fruit cake with a layer of marzipan or almond paste running through the middle and on top. The cake is topped with eleven marzipan balls to represent the eleven disciples of Jesus Christ (excluding Judas). </p>
-              </div>
-               
-              <div class="price">
-                <p class="btn cursor-text bg-red mb-0 text-light">39,99	&#36;</p>
-                <button type="button" class="btn bg-red text-light">Add to cart</button>
-              </div>           
-              
-            </div>
-            
-          </div>
-          
-        </article>
+    <div class="boxes search-boxes">
+      <section class="filter-search">
+        <form class="d-flex">
+          <fieldset class="flex-row">
+            <label for=""><input type="checkbox"> Ready</label>
+            <label for=""><input type="checkbox"> Order</label>
+          </fieldset>
+        </form> 
+        <form action=""> 
+          <fieldset>
+            <h3>Sort items by</h3>
+            <label for="higher"><input name="sort" id="higher" type="radio"> Higher price first</label>
+            <label for="lower"><input name="sort" id="lower" type="radio"> Lower price first</label>
+            <label for="new"><input name="sort" id="new" type="radio"> New products first</label>
+            <label for="popular"><input name="sort" id="popular" type="radio"> Popular first</label>
+            <label for="relevant"><input name="sort" id="relevant" type="radio"> Most relevant</label>
+          </fieldset>
+          <fieldset>
+            <h3>Category</h3>
+            <label for=""><input type="checkbox"> Chocolate</label>
+            <label for=""><input type="checkbox"> Fruit</label>
+            <label for=""><input type="checkbox"> Gluten-free</label>
+            <label for=""><input type="checkbox"> Birthday</label>
+            <label for=""><input type="checkbox"> Weading</label>
+            <label for=""><input type="checkbox"> Other</label>
+          </fieldset>
+          <fieldset>
+            <h3>Price</h3>
+            <label for=""><input type="checkbox"> &lt; 10 &#36;</label>
+            <label for=""><input type="checkbox">  10 &#36; - 20 &#36;</label>
+            <label for=""><input type="checkbox"> 20 &#36; - 30 &#36;</label>
+            <label for=""><input type="checkbox"> 30 &#36; - 40 &#36;</label>
+            <label for=""><input type="checkbox"> 40 &#36; - 50 &#36;</label>
+            <label for=""><input type="checkbox"> 50 &#36; &gt;</label>
+          </fieldset>
+        </form>
       </section>
-      <section class="choko bg-grey row">
-        <a  href="#"><h3 class="ps-3 pt-3 text-dark text-dark">Chocolate cakes</h3></a>
-        <article class="card p-3 col-md-3">
-          <div class="article-img">
-            <a href="#"><img class="w-100" src="img/Chocko-1.png" alt="Ultimate chocolate fudge cake"></a>
-          </div>
-          <div class="article-text">
-            <a href="#"><h4>Ultimate chocolate fudge cake</h4></a>
-            <p class="text-red fw-bold">3.300g</p>
-            <p class="d-md-none">Enjoy a slice of heaven! Our best chocolate fudge cake is covered in silky smooth frosting and dark chocolate curls for an artisan finish.</p>
-            <div class="price">
-              <p class="btn cursor-text bg-red mb-0 text-light">49,99	&#36;</p>
-              <button type="button" class="btn bg-red text-light">Add to cart</button>
-            </div>
-            
-          </div>
-          
-        </article>
-       
+      <section class="top container-fluid">
+        <a  href="#"><h6 class="ps-3 pt-3"><strong>138</strong>  Results for <strong>"citrus"</strong>  search at category <strong>"Other"</strong> </h6></a>
         <article class="card p-3 col-md-3">
           <div class="article-img">
             <a href="#"><img class="w-100" src="img/Chocko-2.png" alt="Chocolate orange cake"></a>
@@ -139,65 +94,13 @@
           <div class="article-text">
             <a href="#"><h4>Chocolate orange cake</h4></a>
             <p class="text-red fw-bold">3.400g</p>
-            <p class="d-md-none">Treat yourself to this indulgent chocolate cake laced with orange curd and zest, slathered with moreish chocolate orange buttercream. </p>
+            <p >Treat yourself to this indulgent chocolate cake laced with orange curd and zest, slathered with moreish chocolate orange buttercream. </p>
             <div class="price">
               <p class="btn cursor-text bg-red mb-0 text-light">44,99	&#36;</p>
               <button type="button" class="btn bg-red text-light">Add to cart</button>
             </div>
           </div>
         </article>
-       
-        <article class="card p-3 col-md-3">
-          <div class="article-img">
-            <a href="#"><img class="w-100" src="img/Chocko-3.png" alt="After Eight chocolate cake"></a>
-          </div>
-          <div class="article-text">
-            <a href="#"><h4>After Eight chocolate cake</h4></a>
-            <p class="text-red fw-bold">2.200g</p>
-            <p class="d-md-none">This showstopping cake is a glorious combination of chocolate and mint that makes an excellent dessert for a festive party. </p>
-            <div class="price">
-              <p class="btn cursor-text bg-red mb-0 text-light">39,99	&#36;</p>
-              <button type="button" class="btn bg-red text-light">Add to cart</button>
-            </div>
-          </div>
-          
-        </article>
-       
-        <article class="card p-3 col-md-3">
-          <div class="article-img">
-            <a href="#"><img class="w-100" src="img/Chocko-5.png" alt="Chocolate almond cake with amaretto cream"></a>
-          </div>
-          <div class="article-text">
-            <a href="#"><h4>Chocolate almond cake with amaretto cream</h4></a>
-            <p class="text-red fw-bold">2.700g</p>
-            <p class="d-md-none">Looking to take your chocolate cake up a notch? Check out this Italian inspired almond cake with dark melted chocolate and a hint of coffee. Topped with velvety amaretto cream, this cake is pure indulgence.</p>
-            <div class="price">
-              <p class="btn cursor-text bg-red mb-0 text-light">49,99	&#36;</p>
-              <button type="button" class="btn bg-red text-light">Add to cart</button>
-            </div>
-          </div>
-          
-        </article>
-      </section>
-     
-      <section class="fruit row bg-grey">
-        <a  href="#"><h3 class="ps-3 pt-3 text-dark">Fruit cakes</h3></a>
-        <article class="card p-3 col-md-3">
-          <div class="article-img">
-            <a href="#"><img class="w-100" src="img/Fruit-5.png" alt="Plum and earl grey pound cake"></a>
-          </div>
-          <div class="article-text">
-            <a href="#"><h4>Plum and earl grey pound cake</h4></a>
-            <p class="text-red fw-bold">3.300g</p>
-            <p class="d-md-none">This plum and earl grey pound cake makes for the perfect afternoon treat with a cup of tea (earl grey, naturally).</p>
-            <div class="price">
-              <p class="btn cursor-text bg-red mb-0 text-light">19,99	&#36;</p>
-              <button type="button" class="btn bg-red text-light">Add to cart</button>
-            </div>
-          </div>
-          
-        </article>
-       
         <article class="card p-3 col-md-3">
           <div class="article-img">
             <a href="#"><img class="w-100" src="img/Fruit-2.png" alt="Double lemon, gin and tonic cake"></a>
@@ -205,7 +108,7 @@
           <div class="article-text">
             <a href="#"><h4>Double lemon, gin and tonic cake</h4></a>
             <p class="text-red fw-bold">1.900g</p>
-            <p class="d-md-none">Plenty of citrusy lemons go into this boozy bake, making it a great winter treat. It’s easy to make and sure to please a crowd – a new way to enjoy your G&T. </p>
+            <p >Plenty of citrusy lemons go into this boozy bake, making it a great winter treat. It’s easy to make and sure to please a crowd – a new way to enjoy your G&T. </p>
             <div class="price">
               <p class="btn cursor-text bg-red mb-0 text-light">34,99	&#36;</p>
               <button type="button" class="btn bg-red text-light">Add to cart</button>
@@ -213,22 +116,6 @@
           </div>
           
         </article>
-       
-        <article class="card p-3 col-md-3">
-          <div class="article-img">
-            <a href="#"><img class="w-100" src="img/Fruit-3.png" alt="Blackberry cake"></a>
-          </div>
-          <div class="article-text">
-            <a href="#"><h4>Blackberry cake</h4></a>
-            <p class="text-red fw-bold">2.300g</p>
-            <p class="d-md-none">Taste these cake with fresh fruit baked into the sponge and a vibrant coulis drizzled over freshly whipped cream. </p>
-            <div class="price">
-              <p class="btn cursor-text bg-red mb-0 text-light">39,99	&#36;</p>
-              <button type="button" class="btn bg-red text-light"> Add to cart </button>
-            </div>
-          </div>
-        </article>
-       
         <article class="card p-3 col-md-3">
           <div class="article-img">
             <a href="#"><img class="w-100" src="img/Fruit-4.png" alt="Clementine layer cake"></a>
@@ -236,7 +123,7 @@
           <div class="article-text">
             <a href="#"><h4>Clementine layer cake</h4></a>
             <p class="text-red fw-bold">3.500g</p>
-            <p class="d-md-none">This is a festive spin on a classic victoria sponge – instead of jam and cream it is layered with a homemade clementine curd and a champagne-spiked cream.</p>
+            <p >This is a festive spin on a classic victoria sponge – instead of jam and cream it is layered with a homemade clementine curd and a champagne-spiked cream.</p>
             <div class="price">
               <p class="btn cursor-text bg-red mb-0 text-light">49,99	&#36;</p>
               <button type="button" class="btn bg-red text-light">Add to cart</button>
@@ -244,9 +131,6 @@
           </div>
           
         </article>
-      </section>
-      <section class="gluten-free bg-grey row">
-        <a  href="#"><h3 class="ps-3 pt-3 text-dark">Gluten free cakes</h3></a>
         <article class="card p-3 col-md-3">
           <div class="article-img">
             <a href="#"><img class="w-100" src="img/GF-1.png" alt="Clementine yogurt cake"></a>
@@ -254,7 +138,7 @@
           <div class="article-text">
             <a href="#"><h4>Clementine yogurt cake</h4></a>
             <p class="text-red fw-bold">3.300g</p>
-            <p class="d-md-none">This delicate clementine cake is picture-perfect and great for sharing. The yogurt keeps the sponge deliciously squidgy and the fruity flavours are a guaranteed hit.</p>
+            <p >This delicate clementine cake is picture-perfect and great for sharing. The yogurt keeps the sponge deliciously squidgy and the fruity flavours are a guaranteed hit.</p>
             <div class="price">
               <p class="btn cursor-text bg-red mb-0 text-light">29,99	&#36;</p>
               <button type="button" class="btn bg-red text-light">Add to cart</button>
@@ -262,55 +146,8 @@
           </div>
           
         </article>
-       
-        <article class="card p-3 col-md-3">
-          <div class="article-img">
-            <a href="#"><img class="w-100" src="img/GF-2.png" alt="Buckwheat tarts with rice pudding and blackberries"></a>
-          </div>
-          <div class="article-text">
-            <a href="#"><h4>Buckwheat tarts with rice pudding and blackberries</h4></a>
-            <p class="text-red fw-bold">0.500g</p>
-            <p class="d-md-none">This decadent dessert makes the most of seasonal blackberries. Rich rice pudding and sharp berries pair perfectly in this dinner party-worthy dish.</p>
-            <div class="price">
-              <p class="btn cursor-text bg-red mb-0 text-light">9,99	&#36;</p>
-              <button type="button" class="btn bg-red text-light">Add to cart</button>
-            </div>
-          </div>
-          
-        </article>
-       
-        <article class="card p-3 col-md-3">
-          <div class="article-img">
-            <a href="#"><img class="w-100" src="img/GF-3.png" alt="Flourless chocolate truffle cake"></a>
-          </div>
-          <div class="article-text">
-            <a href="#"><h4>Flourless chocolate truffle cake</h4></a>
-            <p class="text-red fw-bold">1.200g</p>
-            <p class="d-md-none">This flourless, gluten free chocolate cake is extremely smooth, with a similar consistency to a chocolate torte. The amaretto lifts the richness of the chocolate. </p>
-            <div class="price">
-              <p class="btn cursor-text bg-red mb-0 text-light">19,99	&#36;</p>
-              <button type="button" class="btn bg-red text-light">Add to cart</button>
-            </div>
-          </div>
-        
-        </article>
-       
-        <article class="card p-3 col-md-3">
-          <div class="article-img">
-            <a href="#"><img class="w-100" src="img/GF-4.png" alt="Gluten-free ginger and caramel cake"></a>
-          </div>
-          <div class="article-text">
-            <a href="#"><h4>Gluten-free ginger and caramel cake</h4></a>
-            <p class="text-red fw-bold">3.300g</p>
-            <p class="d-md-none">Caramac icing creates a stunning drip finish to this impressive spiced layer cake, perfect for party season.</p>
-            <div class="price">
-              <p class="btn cursor-text bg-red mb-0 text-light">49,99	&#36;</p>
-              <button type="button" class="btn bg-red text-light">Add to cart</button>
-            </div>
-          </div>
-         
-        </article>
       </section>
+     
     </div>
     
     
