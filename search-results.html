@@ -38,27 +38,41 @@
       </div>
     </nav>
     <div class="heading">
-      <img class="logo" src="img/Cake-Logo-Transparent-white.png" alt="Logo">
-      <h1>CAKE FACTORY</h1>
-      <p>Make a choise and we make your cake</p>
+      <div class="heading-top mb-5">
+        <img class="logo" src="img/Cake-Logo-Transparent-white.png" alt="Logo">
+        <h1>CAKE FACTORY</h1>
+        <p class="text-uppercase">We make Cakes for you </p>
+      </div>
+      <form class="search-bar d-flex flex-column flex-md-row px-5 align-items-stretch">
+        <select class="py-1 ps-2" id="categories" name="categories" size="1">
+          <option value="categories">All categories</option>
+          <option value="recomendation">Top recomendation</option>
+          <option value="chocolate">Chocolate</option>
+          <option value="fruit">Fruit</option>
+          <option value="gluten-free">Gluten free</option>
+          <option value="birthday">Birthday</option>
+          <option value="wedding">Wedding</option>
+          <option value="other">Other</option>
+        </select>
+        <input class="py-1 ps-2" type="search" placeholder="Find your cake...">
+        <a href="/search-results.html"><button type="button" class="btn bg-black text-light py-1 ps-2 w-100">Search</button></a>
+      </form>
     </div>
-    <form class="search-bar d-flex justify-content-center">
-      <input class="py-1" type="text" placeholder="Search our products">
-      <a href="/search-results.html"><button type="button" class="btn bg-black text-light py-1 w-100">Search</button></a>
-    </form>
   </header>
   <main >
     <div class="boxes search-boxes">
       <section class="filter-search p-3">
         <form class="d-flex mb-2 justify-content-start">
           <fieldset class="flex-row">
-            <label class="me-1" for="ready"><input id="ready" type="checkbox"> Ready</label>
-            <label for="order"><input id="order" type="checkbox"> Order</label>
+            <label class="me-1" for="ready"><input id="ready" type="checkbox"> Buy</label>
+            <label for="order"><input id="order" type="checkbox"> Make an order</label>
           </fieldset>
         </form> 
+        <div class="line"></div>
         <form action=""> 
           <fieldset>
             <h6>Sort by</h6>
+            <div class="line"></div>
             <label for="higher"><input name="sort" id="higher" type="radio"> Higher price first</label>
             <label for="lower"><input name="sort" id="lower" type="radio"> Lower price first</label>
             <label for="new"><input name="sort" id="new" type="radio"> New products first</label>
@@ -67,6 +81,7 @@
           </fieldset>
           <fieldset>
             <h6>Category</h6>
+            <div class="line"></div>
             <label for=""><input type="checkbox"> Chocolate</label>
             <label for=""><input type="checkbox"> Fruit</label>
             <label for=""><input type="checkbox"> Gluten-free</label>
@@ -76,6 +91,7 @@
           </fieldset>
           <fieldset>
             <h6>Price</h6>
+            <div class="line"></div>
             <label for=""><input type="checkbox"> &lt; 10 &#36;</label>
             <label for=""><input type="checkbox">  10 &#36; - 20 &#36;</label>
             <label for=""><input type="checkbox"> 20 &#36; - 30 &#36;</label>
@@ -86,8 +102,9 @@
         </form>
       </section>
       <section class="top container-fluid">
-        <a  href="#"><h6 class="ps-3 pt-3"><strong>138</strong>  Results for <strong>"citrus"</strong>  search at category <strong>"Other"</strong> </h6></a>
-        <article class="card p-3 col-md-3">
+        <a class="result-heading" href="#"><h6 class="ps-3 pt-3"><strong>138</strong>  Results for <strong>"citrus"</strong>  search at category <strong>"Other"</strong> </h6></a>
+        <div class="line"></div>
+        <article class="card p-3 mb-3 col-md-3">
           <div class="article-img">
             <a href="#"><img class="w-100" src="img/Chocko-2.png" alt="Chocolate orange cake"></a>
           </div>
@@ -101,7 +118,7 @@
             </div>
           </div>
         </article>
-        <article class="card p-3 col-md-3">
+        <article class="card p-3 mb-3 col-md-3">
           <div class="article-img">
             <a href="#"><img class="w-100" src="img/Fruit-2.png" alt="Double lemon, gin and tonic cake"></a>
           </div>
@@ -116,7 +133,7 @@
           </div>
           
         </article>
-        <article class="card p-3 col-md-3">
+        <article class="card p-3 mb-3 col-md-3">
           <div class="article-img">
             <a href="#"><img class="w-100" src="img/Fruit-4.png" alt="Clementine layer cake"></a>
           </div>
@@ -131,7 +148,7 @@
           </div>
           
         </article>
-        <article class="card p-3 col-md-3">
+        <article class="card p-3 mb-3 col-md-3">
           <div class="article-img">
             <a href="#"><img class="w-100" src="img/GF-1.png" alt="Clementine yogurt cake"></a>
           </div>
