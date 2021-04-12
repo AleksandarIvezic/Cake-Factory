@@ -447,23 +447,23 @@ footer i:hover {
     font-size: 1.1rem;
   }
 
-  .filter-search label {
+  .filter-search label,
+  p {
     font-size: 0.9rem;
   }
 
-  .filter-search form,
-  p {
+  .filter-search form {
     display: flex;
     flex-direction: column;
+  }
+
+  .search-boxes {
+    display: flex;
   }
 
   .price p,
   .price button {
     font-size: 0.8rem;
     padding: 2px 5px;
-  }
-
-  .search-boxes {
-    display: flex;
   }
 }
