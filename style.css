@@ -399,8 +399,9 @@ footer i:hover {
     margin-bottom: 100px !important;
   }
 
-  header .search-bar {
-    width: 80%;
+  header .search-,
+  main .boxes {
+    width: 70%;
     margin: 0 auto;
     flex-grow: 1;
   }
@@ -412,11 +413,6 @@ footer i:hover {
   }
 
   /* Main  */
-
-  main .boxes {
-    width: 70%;
-    margin: 0 auto;
-  }
 
   .top {
     width: 80%;
