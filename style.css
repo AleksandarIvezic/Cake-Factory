@@ -382,10 +382,6 @@ footer i:hover {
 }
 
 @media screen and (min-width: 768px) {
-  p {
-    font-size: 0.9rem;
-  }
-
   h3 span {
     display: inline;
   }
@@ -432,7 +428,6 @@ footer i:hover {
   }
 
   .search-boxes .card {
-    display: flex;
     flex-direction: row;
   }
 
@@ -441,12 +436,6 @@ footer i:hover {
     flex-grow: 1;
     flex-direction: column;
     justify-content: space-between;
-  }
-
-  .price p,
-  .price button {
-    font-size: 0.8rem;
-    padding: 2px 5px;
   }
 
   /* Filter search  */
@@ -466,9 +455,16 @@ footer i:hover {
     font-size: 0.9rem;
   }
 
-  .filter-search form {
+  .filter-search form,
+  p {
     display: flex;
     flex-direction: column;
+  }
+
+  .price p,
+  .price button {
+    font-size: 0.8rem;
+    padding: 2px 5px;
   }
 
   .search-boxes {
