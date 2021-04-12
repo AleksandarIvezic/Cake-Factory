@@ -44,7 +44,7 @@ To run it online just click on [Live Demo Link](https://shinobiwarior.github.io/
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/ShinobiWarior/Cake-Factory/issues/).
 
 ## Show your support
 
