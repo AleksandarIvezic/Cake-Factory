@@ -2,66 +2,66 @@
 @font-face {
   font-family: 'Gotham Bold';
   src: url('fonts/Gotham-Bold.eot');
-  src: url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Gotham-Bold.woff2') format('woff2'),
-      url('fonts/Gotham-Bold.woff') format('woff'),
-      url('fonts/Gotham-Bold.ttf') format('truetype'),
-      url('fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+  src:
+    url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Gotham-Bold.woff2') format('woff2'),
+    url('fonts/Gotham-Bold.woff') format('woff'),
+    url('fonts/Gotham-Bold.ttf') format('truetype'),
+    url('fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
   font-family: 'Gotham Rounded Light';
   src: url('fonts/GothamRounded-Light.eot');
-  src: url('fonts/GothamRounded-Light.eot?#iefix') format('embedded-opentype'),
-      url('fonts/GothamRounded-Light.woff2') format('woff2'),
-      url('fonts/GothamRounded-Light.woff') format('woff'),
-      url('fonts/GothamRounded-Light.ttf') format('truetype'),
-      url('fonts/GothamRounded-Light.svg#GothamRounded-Light') format('svg');
+  src:
+    url('fonts/GothamRounded-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GothamRounded-Light.woff2') format('woff2'),
+    url('fonts/GothamRounded-Light.woff') format('woff'),
+    url('fonts/GothamRounded-Light.ttf') format('truetype'),
+    url('fonts/GothamRounded-Light.svg#GothamRounded-Light') format('svg');
   font-weight: 300;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
   font-family: 'HelveticaNeue Light';
   src: url('fonts/HelveticaNeueLT-45Lt.eot');
-  src: url('fonts/HelveticaNeueLT-45Lt.eot?#iefix') format('embedded-opentype'),
-      url('fonts/HelveticaNeueLT-45Lt.woff2') format('woff2'),
-      url('fonts/HelveticaNeueLT-45Lt.woff') format('woff'),
-      url('fonts/HelveticaNeueLT-45Lt.ttf') format('truetype'),
-      url('fonts/HelveticaNeueLT-45Lt.svg#HelveticaNeueLT-45Lt') format('svg');
+  src:
+    url('fonts/HelveticaNeueLT-45Lt.eot?#iefix') format('embedded-opentype'),
+    url('fonts/HelveticaNeueLT-45Lt.woff2') format('woff2'),
+    url('fonts/HelveticaNeueLT-45Lt.woff') format('woff'),
+    url('fonts/HelveticaNeueLT-45Lt.ttf') format('truetype'),
+    url('fonts/HelveticaNeueLT-45Lt.svg#HelveticaNeueLT-45Lt') format('svg');
   font-weight: 300;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
   font-family: 'HelveticaNeue Medium';
   src: url('fonts/HelveticaNeueLT-65Md.eot');
-  src: url('fonts/HelveticaNeueLT-65Md.eot?#iefix') format('embedded-opentype'),
-      url('fonts/HelveticaNeueLT-65Md.woff2') format('woff2'),
-      url('fonts/HelveticaNeueLT-65Md.woff') format('woff'),
-      url('fonts/HelveticaNeueLT-65Md.ttf') format('truetype'),
-      url('fonts/HelveticaNeueLT-65Md.svg#HelveticaNeueLT-65Md') format('svg');
+  src:
+    url('fonts/HelveticaNeueLT-65Md.eot?#iefix') format('embedded-opentype'),
+    url('fonts/HelveticaNeueLT-65Md.woff2') format('woff2'),
+    url('fonts/HelveticaNeueLT-65Md.woff') format('woff'),
+    url('fonts/HelveticaNeueLT-65Md.ttf') format('truetype'),
+    url('fonts/HelveticaNeueLT-65Md.svg#HelveticaNeueLT-65Md') format('svg');
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
   font-family: 'HelveticaNeue Bold';
   src: url('fonts/HelveticaNeueLT-75Bd.eot');
-  src: url('fonts/HelveticaNeueLT-75Bd.eot?#iefix') format('embedded-opentype'),
-      url('fonts/HelveticaNeueLT-75Bd.woff2') format('woff2'),
-      url('fonts/HelveticaNeueLT-75Bd.woff') format('woff'),
-      url('fonts/HelveticaNeueLT-75Bd.ttf') format('truetype'),
-      url('fonts/HelveticaNeueLT-75Bd.svg#HelveticaNeueLT-75Bd') format('svg');
+  src:
+    url('fonts/HelveticaNeueLT-75Bd.eot?#iefix') format('embedded-opentype'),
+    url('fonts/HelveticaNeueLT-75Bd.woff2') format('woff2'),
+    url('fonts/HelveticaNeueLT-75Bd.woff') format('woff'),
+    url('fonts/HelveticaNeueLT-75Bd.ttf') format('truetype'),
+    url('fonts/HelveticaNeueLT-75Bd.svg#HelveticaNeueLT-75Bd') format('svg');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
 }
 
 /*
@@ -73,7 +73,6 @@ body {
   font-family: 'HelveticaNeue Medium', Arial, Helvetica, sans-serif;
   margin: 0;
 }
-
 
 :root {
   --redColor: #d35266;
@@ -99,12 +98,13 @@ ul {
 a {
   text-decoration: none;
 }
+
 h2,
 h3,
 h4,
 h6 {
   color: var(--darkColor);
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 h3 {
@@ -120,7 +120,7 @@ p {
 }
 
 .line {
-  content:"";
+  content: "";
   height: 1px;
   width: 100%;
   background-color: var(--redColor);
@@ -136,9 +136,11 @@ p {
 .bg-red {
   background-color: var(--redColor);
 }
+
 .bg-black {
   background-color: var(--darkColor);
 }
+
 .bg-grey {
   background-color: var(--greyColor);
 }
@@ -151,7 +153,6 @@ p {
   background-color: var(--pinkColor);
 }
 
-
 .text-red {
   color: var(--redColor);
 }
@@ -160,19 +161,15 @@ p {
 
 header {
   font-family: 'Gotham bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-image: linear-gradient(rgba(211, 82, 102, 0.8),rgba(211, 82, 102, 0.9)), url("img/Fruit-1.png");
+  background-image: linear-gradient(rgba(211, 82, 102, 0.8), rgba(211, 82, 102, 0.9)), url("img/Fruit-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 40vh;
 }
 
-header .heading {
-  padding: 40px 0;
-}
-
 /* Navbar  */
 
-.navbar {  
+.navbar {
   background: var(--darkColor);
   margin-bottom: 20px;
 }
@@ -196,13 +193,15 @@ header .heading {
   letter-spacing: -1px;
 }
 
+header .heading {
+  padding: 40px 0;
+}
+
 .heading .logo,
 .index .logo {
   height: 1.6rem;
   width: 1.6rem;
 }
-
-
 
 /* Main  */
 
@@ -215,19 +214,19 @@ main p,
   max-height: 400px;
 }
 
+.price {
+  text-align: end;
+}
+
 .top .price {
   margin-right: 20px;
   margin-bottom: 20px;
 }
 
-.price {
-  text-align: end;
-}
-
 .price p,
 .price button {
   font-size: 0.7rem;
-  padding: 2px 5px
+  padding: 2px 5px;
 }
 
 .gluten-logo {
@@ -249,7 +248,6 @@ main p,
   margin-bottom: 20px;
   height: 3rem;
   padding: 6px;
-
 }
 
 .index h2,
@@ -273,12 +271,12 @@ main p,
   font-size: 0.8rem;
 }
 
- /* Index/Footer  */
-  
- .index,
- footer {
-   padding:10px 40px;
- }
+/* Index/Footer  */
+
+.index,
+footer {
+  padding: 10px 40px;
+}
 
 /* Filter search  */
 
@@ -312,8 +310,6 @@ main p,
   margin-left: 5px;
 }
 
-
-
 .search-boxes .article-img {
   margin-right: 20px;
   width: 100%;
@@ -326,7 +322,7 @@ main p,
 /* Hover style  */
 
 .navbar a:hover {
-  color:var(--pinkColor) !important;
+  color: var(--pinkColor) !important;
 }
 
 .navbar button:focus {
@@ -335,7 +331,6 @@ main p,
 
 .navbar .fas:hover {
   color: white;
-  
 }
 
 .navbar-collapse .btn:hover {
@@ -343,8 +338,8 @@ main p,
   background-color: white;
 }
 
-.search-bar button:hover{
-  color:var(--redColor) !important;
+.search-bar button:hover {
+  color: var(--redColor) !important;
   opacity: 0.9;
 }
 
@@ -363,18 +358,18 @@ main p,
 }
 
 .article-text h4:hover {
-  color:var(--redColor);
+  color: var(--redColor);
   opacity: 0.8;
 }
 
 .pagination a:hover {
   background-color: var(--pinkColor);
-  color:white;
+  color: white;
 }
 
 .index a:hover,
 footer i:hover {
-  color: var(--redColor)
+  color: var(--redColor);
 }
 
 .see-all:hover {
@@ -413,11 +408,12 @@ footer i:hover {
 
   /* Main  */
 
-  main .boxes  {
+  main .boxes {
     width: 70%;
     margin: 0 auto;
   }
-  .top  {
+
+  .top {
     width: 80%;
     margin: 0 auto;
   }
@@ -426,7 +422,7 @@ footer i:hover {
     display: flex;
   }
 
-  .search-boxes .card{
+  .search-boxes .card {
     display: flex;
     flex-direction: row;
   }
@@ -440,12 +436,12 @@ footer i:hover {
 
   .price p,
   .price button {
-  font-size: 0.8rem;
-  padding: 2px 5px;
+    font-size: 0.8rem;
+    padding: 2px 5px;
   }
 
   /* Filter search  */
-  .result .card{
+  .result .card {
     width: 100%;
   }
 
@@ -456,12 +452,11 @@ footer i:hover {
   .filter-search h6 {
     font-size: 1.1rem;
   }
- 
+
   .filter-search label {
-    
     font-size: 0.9rem;
   }
-  
+
   .filter-search form {
     display: flex;
     flex-direction: column;
@@ -470,8 +465,4 @@ footer i:hover {
   .search-boxes {
     display: flex;
   }
-
-  
-
-  
 }
