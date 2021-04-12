@@ -2,7 +2,7 @@
 
 > The goal of this project is to build a Online web store for selling cakes that will have home and search page available on mobile and big screen
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Screenshot-CakeFactory.png)
 
 The Capstone instructions requires that our website has at least two pages: 
   1. Main page with the link to the Search results page
