@@ -162,6 +162,10 @@ p {
   color: var(--redColor);
 }
 
+.font-l {
+  font-size: 1.2rem;
+}
+
 /* Header  */
 
 header {
@@ -177,6 +181,7 @@ header {
 .navbar {
   background: var(--darkColor);
   margin-bottom: 20px;
+  padding: 0 35px;
 }
 
 .navbar-toogler {
@@ -187,6 +192,43 @@ header {
   height: 1.4rem;
   width: 1.4rem;
   margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.navbar .navbar-brand {
+  font-family: 'Gotham Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.navbar a,
+.navbar button {
+  font-family: 'Gotham Rounded Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.8rem;
+}
+
+.navbar .wrapper {
+  max-width: 900px;
+  margin: 0;
+}
+
+.nav-info ul {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 210px;
+  margin: 0 10px;
+}
+
+.navbar .my-img {
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 /* Heading  */
