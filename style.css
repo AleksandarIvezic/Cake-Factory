@@ -266,7 +266,7 @@ main p,
   padding: 10px;
 }
 
-.top img {
+.top .article-img {
   max-height: 400px;
 }
 
