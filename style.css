@@ -297,9 +297,9 @@ main p,
 .about-factory a {
   display: block;
   border-radius: 10px;
-  width: 200px;
+  width: 180px;
   margin-bottom: 20px;
-  height: 3rem;
+  height: 2.5rem;
   padding: 6px;
 }
 
