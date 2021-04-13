@@ -124,11 +124,11 @@ p {
   font-size: 0.8rem;
 }
 
-.line {
+hr {
   content: "";
   height: 1px;
   width: 100%;
-  background-color: var(--redColor);
+  background-color: var(--greyColor);
   margin-bottom: 10px;
 }
 
@@ -253,10 +253,6 @@ header .heading {
 
 /* Main  */
 
-main {
-  border-bottom: var(--greyColor) 1px solid;
-}
-
 main p,
 .search-bar {
   font-family: 'Gotham Rounded Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -336,7 +332,7 @@ main p,
 
 .filter-search {
   padding: 10px;
-  border-right: var(--redColor) 1px solid;
+  border-right: lightgray 1px solid;
 }
 
 .filter-search h6 {
