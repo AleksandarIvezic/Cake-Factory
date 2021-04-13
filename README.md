@@ -1,11 +1,11 @@
 # Capstone project: Cake-Factory
 
-> The goal of this project is to build a Online web store for selling cakes that will have home and search page available on mobile and big screen
+> The goal of this project is to build an online web store for selling cakes that will have home and search page available on mobile and big screen
 
 ![screenshot](./Screenshot-CakeFactory.png)
 
-The Capstone instructions requires that our website has at least two pages: 
-  1. Main page with the link to the Search results page
+The Capstone instructions require that our website has at least two pages:
+  1. Main page with the link to the search results page
   2. Search results page
   
 And it should be responsive in two screen sizes:
@@ -27,7 +27,7 @@ No prerequisites
 
 To get  a local copy, copy up and run:
 
-    1. Clone the repo or download the Zip folder
+    1. Clone the repo or download the zip folder
     2. Run live server or simply open the index.html file with a browser
 
 To run it online just click on [Live Demo Link](https://shinobiwarior.github.io/Cake-Factory/)
@@ -48,4 +48,4 @@ Feel free to check the [issues page](https://github.com/ShinobiWarior/Cake-Facto
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give ⭐️ if you like this project!
