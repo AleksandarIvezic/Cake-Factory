@@ -352,7 +352,6 @@ main p,
 /* Filter search  */
 
 .filter-search {
-  background-color: var(--pinkColor);
   padding: 10px;
   border-right: var(--redColor) 1px solid;
 }
