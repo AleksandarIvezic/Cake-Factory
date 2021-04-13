@@ -264,6 +264,10 @@ header .heading {
 
 /* Main  */
 
+main {
+  border-bottom: var(--greyColor) 1px solid;
+}
+
 main p,
 .search-bar {
   font-family: 'Gotham Rounded Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -305,13 +309,23 @@ main p,
   margin-top: 20px;
 }
 
+.about-factory,
+.categories,
+.navigation {
+  width: 33%;
+}
+
 .about-factory a {
   display: block;
   border-radius: 10px;
-  width: 255px;
+  width: 200px;
   margin-bottom: 20px;
   height: 3rem;
   padding: 6px;
+}
+
+.about-factory h2 {
+  font-size: 1.2rem;
 }
 
 .index h2,
@@ -333,13 +347,6 @@ main p,
 .navigation a {
   font-family: 'HelveticaNeue Light', Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
-}
-
-/* Index/Footer  */
-
-.index,
-footer {
-  padding: 10px 40px;
 }
 
 /* Filter search  */
@@ -459,8 +466,10 @@ footer i:hover {
   }
 
   header .search-bar,
-  main .boxes {
-    width: 70%;
+  main .boxes,
+  main .index,
+  footer {
+    width: 80%;
     margin: 0 auto;
     flex-grow: 1;
   }
