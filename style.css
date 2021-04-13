@@ -1,15 +1,84 @@
+/* Fonts  */
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('fonts/Gotham-Bold.eot');
+  src:
+    url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Gotham-Bold.woff2') format('woff2'),
+    url('fonts/Gotham-Bold.woff') format('woff'),
+    url('fonts/Gotham-Bold.ttf') format('truetype'),
+    url('fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Rounded Light';
+  src: url('fonts/GothamRounded-Light.eot');
+  src:
+    url('fonts/GothamRounded-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/GothamRounded-Light.woff2') format('woff2'),
+    url('fonts/GothamRounded-Light.woff') format('woff'),
+    url('fonts/GothamRounded-Light.ttf') format('truetype'),
+    url('fonts/GothamRounded-Light.svg#GothamRounded-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue Light';
+  src: url('fonts/HelveticaNeueLT-45Lt.eot');
+  src:
+    url('fonts/HelveticaNeueLT-45Lt.eot?#iefix') format('embedded-opentype'),
+    url('fonts/HelveticaNeueLT-45Lt.woff2') format('woff2'),
+    url('fonts/HelveticaNeueLT-45Lt.woff') format('woff'),
+    url('fonts/HelveticaNeueLT-45Lt.ttf') format('truetype'),
+    url('fonts/HelveticaNeueLT-45Lt.svg#HelveticaNeueLT-45Lt') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue Medium';
+  src: url('fonts/HelveticaNeueLT-65Md.eot');
+  src:
+    url('fonts/HelveticaNeueLT-65Md.eot?#iefix') format('embedded-opentype'),
+    url('fonts/HelveticaNeueLT-65Md.woff2') format('woff2'),
+    url('fonts/HelveticaNeueLT-65Md.woff') format('woff'),
+    url('fonts/HelveticaNeueLT-65Md.ttf') format('truetype'),
+    url('fonts/HelveticaNeueLT-65Md.svg#HelveticaNeueLT-65Md') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue Bold';
+  src: url('fonts/HelveticaNeueLT-75Bd.eot');
+  src:
+    url('fonts/HelveticaNeueLT-75Bd.eot?#iefix') format('embedded-opentype'),
+    url('fonts/HelveticaNeueLT-75Bd.woff2') format('woff2'),
+    url('fonts/HelveticaNeueLT-75Bd.woff') format('woff'),
+    url('fonts/HelveticaNeueLT-75Bd.ttf') format('truetype'),
+    url('fonts/HelveticaNeueLT-75Bd.svg#HelveticaNeueLT-75Bd') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
 /*
     ==============================================
                 ****** RESET ******
     ==============================================
 */
 body {
+  font-family: 'HelveticaNeue Medium', Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
 :root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
+  --redColor: #d35266;
+  --greyColor: #888;
+  --darkColor: #383838;
+  --pinkColor: #f49595;
 }
 
 *,
@@ -28,11 +97,39 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
-a:hover {
-  color: #333;
+h2,
+h3,
+h4,
+h6 {
+  color: var(--darkColor);
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h3 span {
+  font-size: 0.9rem;
+  display: none;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+hr {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: var(--greyColor);
+  margin-bottom: 10px;
 }
 
 /*
@@ -40,3 +137,350 @@ a:hover {
                 ****** GLOBAL ******
     ==============================================
 */
+
+.bg-red {
+  background-color: var(--redColor);
+}
+
+.bg-black {
+  background-color: var(--darkColor);
+}
+
+.bg-grey {
+  background-color: var(--greyColor);
+}
+
+.bg-lightGrey {
+  background-color: lightgray;
+}
+
+.bg-pink {
+  background-color: var(--pinkColor);
+}
+
+.text-red {
+  color: var(--redColor);
+}
+
+.text-grey {
+  color: var(--greyColor);
+}
+
+.border-grey {
+  border: 1px var(--greyColor) solid;
+}
+
+.font-l {
+  font-size: 1.2rem;
+}
+
+.font-sm {
+  font-size: 0.8rem;
+}
+
+/* Header  */
+
+header {
+  font-family: 'Gotham bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: linear-gradient(rgba(211, 82, 102, 0.8), rgba(211, 82, 102, 0.9)), url("img/Fruit-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 40vh;
+}
+
+/* Navbar  */
+
+.navbar {
+  background: var(--darkColor);
+  margin-bottom: 20px;
+  padding: 0 35px;
+}
+
+.navbar-toogler {
+  background-color: white;
+}
+
+.navbar .logo {
+  height: 1.4rem;
+  width: 1.4rem;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.navbar .navbar-brand {
+  font-family: 'Gotham Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+}
+
+.navbar a,
+.navbar button {
+  font-family: 'Gotham Rounded Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.8rem;
+}
+
+.navbar .wrapper {
+  max-width: 900px;
+  margin: 0;
+}
+
+.nav-info ul {
+  min-width: 210px;
+}
+
+.navbar .my-img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/* Heading  */
+
+.heading,
+.search-bar {
+  color: white;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+header .heading {
+  padding: 40px 0;
+}
+
+.heading .logo,
+.index .logo {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+/* Main  */
+
+main p,
+.search-bar {
+  font-family: 'Gotham Rounded Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 10px;
+}
+
+.top .article-img {
+  max-height: 400px;
+}
+
+.price {
+  text-align: end;
+}
+
+.top .price {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.price p,
+.price button {
+  font-size: 0.7rem;
+  padding: 2px 5px;
+}
+
+.gluten-logo {
+  height: 1.5rem;
+  width: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* Index  */
+
+.index {
+  margin-top: 20px;
+}
+
+.about-factory a {
+  display: block;
+  border-radius: 10px;
+  width: 180px;
+  margin-bottom: 20px;
+  height: 2.5rem;
+  padding: 6px;
+}
+
+.about-factory h2 {
+  font-size: 1.2rem;
+}
+
+.index h2,
+.index h4 {
+  font-family: 'HelveticaNeue Bold', Arial, Helvetica, sans-serif;
+}
+
+.index h4 {
+  display: block;
+  width: 170px;
+  border-bottom: var(--redColor) 1px solid;
+}
+
+.index a {
+  color: var(--darkColor);
+}
+
+.categories a,
+.navigation a {
+  font-family: 'HelveticaNeue Light', Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+
+/* Filter search  */
+
+.filter-search {
+  padding: 10px;
+  border-right: lightgray 1px solid;
+}
+
+.filter-search h6 {
+  font-family: 'HelveticaNeue Bold', Arial, Helvetica, sans-serif;
+}
+
+.filter-search label {
+  font-family: 'HelveticaNeue Light', Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+}
+
+.filter-search input {
+  margin-left: 5px;
+}
+
+.search-boxes .article-img {
+  margin-right: 20px;
+}
+
+/* Hover style  */
+
+.navbar a:hover {
+  color: var(--pinkColor) !important;
+}
+
+.navbar button:focus {
+  box-shadow: none;
+}
+
+.navbar .fas:hover {
+  color: white;
+}
+
+.navbar-collapse .btn:hover {
+  color: var(--pinkColor) !important;
+  background-color: white;
+}
+
+.search-bar button:hover {
+  color: var(--redColor) !important;
+  opacity: 0.9;
+}
+
+.card button:hover {
+  color: var(--redColor) !important;
+  background-color: var(--pinkColor);
+  opacity: 0.9;
+}
+
+.article-img img:hover {
+  opacity: 0.9;
+}
+
+.category-heading h3:hover {
+  opacity: 0.7;
+}
+
+.article-text h4:hover {
+  color: var(--redColor);
+  opacity: 0.8;
+}
+
+.pagination a:hover {
+  background-color: var(--pinkColor);
+  color: white;
+}
+
+.index a:hover,
+footer i:hover {
+  color: var(--redColor);
+}
+
+.see-all:hover {
+  color: var(--pinkColor);
+}
+
+@media screen and (min-width: 768px) {
+  h3 span {
+    display: inline;
+  }
+
+  /* Header  */
+  header {
+    min-height: 50vh;
+  }
+
+  header .heading {
+    padding: 50px 0;
+  }
+
+  header .heading-top {
+    margin-bottom: 100px !important;
+  }
+
+  header .search-bar,
+  main .boxes,
+  main .index,
+  footer,
+  .top {
+    width: 80%;
+    margin: 0 auto;
+    flex-grow: 1;
+  }
+
+  .search-bar #categories,
+  .search-bar input {
+    padding: 10px;
+    width: 27%;
+  }
+
+  .search-bar a {
+    width: 15%;
+    padding-top: 10px;
+  }
+
+  /* Main  */
+
+  .search-boxes .card {
+    flex-direction: row;
+  }
+
+  .about-factory,
+  .categories,
+  .navigation {
+    width: 33%;
+  }
+
+  /* Filter search  */
+  .result .card {
+    width: 100%;
+  }
+
+  .filter-search {
+    min-width: 25%;
+  }
+
+  .filter-search h6 {
+    font-size: 1.1rem;
+  }
+
+  .filter-search label,
+  p {
+    font-size: 0.9rem;
+  }
+
+  .price p,
+  .price button {
+    font-size: 0.8rem;
+    padding: 2px 5px;
+  }
+}

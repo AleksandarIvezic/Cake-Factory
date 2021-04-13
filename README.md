@@ -1,76 +1,59 @@
-![](https://img.shields.io/badge/myapp-blueviolet)
+# Capstone project: Cake-Factory
 
-# Project Name
+> The goal of this project is to build an online web store for selling cakes that will have home and search page available on mobile and big screen
 
-> One paragraph statement about the project.
+![screenshot](./Screenshot-CakeFactory.png)
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
-
+The Capstone instructions require that our website has at least two pages:
+  1. Main page with the link to the search results page
+  2. Search results page
+  
+And it should be responsive in two screen sizes:
+  1. Mobile: up to 768px 
+  2. Tablet & Desktop: from 768px
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5
+- CSS3
+- BOOTSTRAP5
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://shinobiwarior.github.io/Cake-Factory/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+No prerequisites
 
+To get  a local copy:
+ 
+- Cloning repository:
+ 1. Press the green button "Code" and copy the link bellow
+ 2. Then open terminal or Git Bash in a folder where you want to copy the repository
+ 3. Type command "git clone" and paste the address that you copied
+ 4. Press "Enter"
+ 5. Find the "index.html" file and double click on it
+- Download zip file:
+ 1. Press the green button "Code" and press "Download ZIP"
+ 2. Save the file and extract it in any folder you wish
+ 3. Find the "index.html" file in extracted file and double click on it
+  
+To run it online just click on [Live Demo Link](https://shinobiwarior.github.io/Cake-Factory/)
 
-To get a local copy up and running follow these simple example steps.
+## Author
 
-### Prerequisites
+👤 **Aleksandar Ivezic**
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [Aleksandar Ivezic](https://github.com/ShinobiWarior)
+- Twitter: [@Aivezic](https://twitter.com/Aivezic)
+- LinkedIn: [Aleksandar Ivezic](https://www.linkedin.com/in/aleksandar-ivezi%C4%87-1a6b0391/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/ShinobiWarior/Cake-Factory/issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+Give ⭐️ if you like this project!
