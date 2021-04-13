@@ -166,6 +166,10 @@ p {
   font-size: 1.2rem;
 }
 
+.font-sm {
+  font-size: 0.8rem;
+}
+
 /* Header  */
 
 header {
@@ -255,6 +259,11 @@ header .heading {
 main p,
 .search-bar {
   font-family: 'Gotham Rounded Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 10px;
 }
 
 .top img {
@@ -449,9 +458,14 @@ footer i:hover {
   }
 
   .search-bar #categories,
-  .search-bar input,
+  .search-bar input {
+    padding: 10px;
+    width: 27%;
+  }
+
   .search-bar a {
-    width: 33%;
+    width: 15%;
+    padding-top: 10px;
   }
 
   /* Main  */
