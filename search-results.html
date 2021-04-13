@@ -23,7 +23,7 @@
           <i class="fas fa-chevron-circle-down text-red font-l"></i>
         </button>
         <div class="collapse navbar-collapse " id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav d-flex flex-grow-1 justify-content-around">
             <li class="nav-item">
               <a class="nav-link text-uppercase text-light" aria-current="page" href="index.html"><i
                   class="fas fa-home"></i> Home</a>
@@ -45,7 +45,7 @@
         </div>
       </div>
       <div class="nav-info d-none d-xl-flex">
-        <ul>
+        <ul class="d-flex flex-grow-1 justify-content-around align-items-center mx-3 my-0">
           <li><a href="#"><i class="fas fa-envelope text-light"></i></a></li>
           <li><a class="text-light" href="#">Aleksandar Ivezic</a></li>
           <li><a href="#"><img class="my-img rounded-circle" src="img/Aleksandar.jpg" alt="Aleksandar"></a></li>
@@ -77,17 +77,17 @@
     </div>
   </header>
   <main>
-    <div class="boxes search-boxes">
+    <div class="boxes search-boxes d-md-flex">
       <section class="filter-search p-3">
         <form class="d-flex mb-2 justify-content-start">
-          <fieldset class="flex-row">
+          <fieldset class="d-flex flex-row">
             <label class="me-1" for="ready"><input id="ready" type="checkbox"> Buy</label>
             <label for="order"><input id="order" type="checkbox"> Make an order</label>
           </fieldset>
         </form>
         <div class="line"></div>
-        <form>
-          <fieldset>
+        <form class="d-flex mb-2 justify-content-start flex-md-column">
+          <fieldset class="d-flex flex-column me-3">
             <h6>Sort by</h6>
             <div class="line"></div>
             <label for="higher"><input name="sort" id="higher" type="radio"> Higher price first</label>
@@ -96,7 +96,7 @@
             <label for="popular"><input name="sort" id="popular" type="radio"> Popular first</label>
             <label for="relevant"><input name="sort" id="relevant" type="radio"> Most relevant</label>
           </fieldset>
-          <fieldset>
+          <fieldset class="d-flex flex-column me-3">
             <h6>Category</h6>
             <div class="line"></div>
             <label for="Chocolate"><input id="Chocolate" type="checkbox"> Chocolate</label>
@@ -106,7 +106,7 @@
             <label for="Weading"><input id="Weading" type="checkbox"> Weading</label>
             <label for="Other"><input id="Other" type="checkbox"> Other</label>
           </fieldset>
-          <fieldset>
+          <fieldset class="d-flex flex-column me-3">
             <h6>Price</h6>
             <div class="line"></div>
             <label for="10"><input id="10" type="checkbox"> &lt; 10 &#36;</label>
@@ -125,15 +125,15 @@
           </h6>
         </a>
         <div class="line"></div>
-        <article class="card p-3 mb-3 col-md-3">
-          <div class="article-img position-relative">
+        <article class="card d-flex p-3 mb-3 col-md-3">
+          <div class="article-img w-100 position-relative">
             <a href="#"><img class="w-100 h-100" src="img/Chocko-2.png" alt="Chocolate orange cake"></a>
             <div class="arrows position-absolute bottom-0 end-0 bg-black ">
               <a class="text-red m-0 p-3 font-l see-all" href="#"><i class="fas fa-chevron-left"></i></a>
               <a class="text-red m-0 p-3 font-l see-all" href="#"><i class="fas fa-chevron-right"></i></a>
             </div>
           </div>
-          <div class="article-text">
+          <div class="article-text d-md-flex flex-grow-1 flex-column justify-content-between w-100">
             <a href="#">
               <h4>Chocolate orange cake</h4>
             </a>
@@ -146,15 +146,15 @@
             </div>
           </div>
         </article>
-        <article class="card p-3 mb-3 col-md-3">
-          <div class="article-img position-relative">
+        <article class="card d-flex p-3 mb-3 col-md-3">
+          <div class="article-img w-100 position-relative">
             <a href="#"><img class="w-100 h-100" src="img/Fruit-2.png" alt="Double lemon, gin and tonic cake"></a>
             <div class="arrows position-absolute bottom-0 end-0 bg-black ">
               <a class="text-red m-0 p-3 font-l see-all" href="#"><i class="fas fa-chevron-left"></i></a>
               <a class="text-red m-0 p-3 font-l see-all" href="#"><i class="fas fa-chevron-right"></i></a>
             </div>
           </div>
-          <div class="article-text">
+          <div class="article-text d-md-flex flex-grow-1 flex-column justify-content-between w-100">
             <a href="#">
               <h4>Double lemon, gin and tonic cake</h4>
             </a>
@@ -167,15 +167,15 @@
             </div>
           </div>
         </article>
-        <article class="card p-3 mb-3 col-md-3">
-          <div class="article-img position-relative">
+        <article class="card d-flex p-3 mb-3 col-md-3">
+          <div class="article-img w-100 position-relative">
             <a href="#"><img class="w-100 h-100" src="img/Fruit-4.png" alt="Clementine layer cake"></a>
             <div class="arrows position-absolute bottom-0 end-0 bg-black ">
               <a class="text-red m-0 p-3 font-l see-all" href="#"><i class="fas fa-chevron-left"></i></a>
               <a class="text-red m-0 p-3 font-l see-all" href="#"><i class="fas fa-chevron-right"></i></a>
             </div>
           </div>
-          <div class="article-text">
+          <div class="article-text d-md-flex flex-grow-1 flex-column justify-content-between w-100">
             <a href="#">
               <h4>Clementine layer cake</h4>
             </a>
@@ -188,15 +188,15 @@
             </div>
           </div>
         </article>
-        <article class="card p-3 mb-3 col-md-3">
-          <div class="article-img position-relative">
+        <article class="card d-flex p-3 mb-3 col-md-3">
+          <div class="article-img w-100 position-relative">
             <a href="#"><img class="w-100 h-100" src="img/GF-1.png" alt="Clementine yogurt cake"></a>
             <div class="arrows position-absolute bottom-0 end-0 bg-black ">
               <a class="text-red m-0 p-3 font-l see-all" href="#"><i class="fas fa-chevron-left"></i></a>
               <a class="text-red m-0 p-3 font-l see-all" href="#"><i class="fas fa-chevron-right"></i></a>
             </div>
           </div>
-          <div class="article-text">
+          <div class="article-text d-md-flex flex-grow-1 flex-column justify-content-between w-100">
             <a href="#">
               <h4>Clementine yogurt cake</h4>
             </a>

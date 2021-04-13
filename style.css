@@ -212,12 +212,6 @@ header {
   font-size: 1.2rem;
 }
 
-.navbar .navbar-nav {
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-around;
-}
-
 .navbar a,
 .navbar button {
   font-family: 'Gotham Rounded Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -230,12 +224,7 @@ header {
 }
 
 .nav-info ul {
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-around;
-  align-items: center;
   min-width: 210px;
-  margin: 0 10px;
 }
 
 .navbar .my-img {
@@ -309,12 +298,6 @@ main p,
   margin-top: 20px;
 }
 
-.about-factory,
-.categories,
-.navigation {
-  width: 33%;
-}
-
 .about-factory a {
   display: block;
   border-radius: 10px;
@@ -360,17 +343,6 @@ main p,
   font-family: 'HelveticaNeue Bold', Arial, Helvetica, sans-serif;
 }
 
-.filter-search form {
-  display: flex;
-  justify-content: start;
-}
-
-.filter-search fieldset {
-  display: flex;
-  flex-direction: column;
-  margin-right: 10px;
-}
-
 .filter-search label {
   font-family: 'HelveticaNeue Light', Arial, Helvetica, sans-serif;
   font-size: 0.7rem;
@@ -382,11 +354,6 @@ main p,
 
 .search-boxes .article-img {
   margin-right: 20px;
-  width: 100%;
-}
-
-.search-boxes .article-text {
-  width: 100%;
 }
 
 /* Hover style  */
@@ -467,7 +434,8 @@ footer i:hover {
   header .search-bar,
   main .boxes,
   main .index,
-  footer {
+  footer,
+  .top {
     width: 80%;
     margin: 0 auto;
     flex-grow: 1;
@@ -486,24 +454,14 @@ footer i:hover {
 
   /* Main  */
 
-  .top {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .card {
-    display: flex;
-  }
-
   .search-boxes .card {
     flex-direction: row;
   }
 
-  .article-text {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-content: space-between;
+  .about-factory,
+  .categories,
+  .navigation {
+    width: 33%;
   }
 
   /* Filter search  */
@@ -522,15 +480,6 @@ footer i:hover {
   .filter-search label,
   p {
     font-size: 0.9rem;
-  }
-
-  .filter-search form {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .search-boxes {
-    display: flex;
   }
 
   .price p,
