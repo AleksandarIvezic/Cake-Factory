@@ -57,3 +57,6 @@ Feel free to check the [issues page](https://github.com/ShinobiWarior/Cake-Facto
 ## Show your support
 
 Give ⭐️ if you like this project!
+
+## Acknowledgments
+- This project was inspired by [Microverse](https://www.microverse.org/?grsf=w9rx3c)
