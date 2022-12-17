@@ -19,7 +19,7 @@ And it should be responsive in two screen sizes:
 
 ## Live Demo
 
-[Live Demo Link](https://shinobiwarior.github.io/Cake-Factory/)
+[Live Demo Link](https://aleksandarIvezic.github.io/Cake-Factory/)
 
 ## Getting Started
 
